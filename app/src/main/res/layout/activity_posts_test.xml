@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostsTestActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/postEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="포스팅 글을 입력해 주세요."/>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추가 하기"/>
+    <ListView
+        android:id="@+id/postsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
